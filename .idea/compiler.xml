@@ -9,5 +9,8 @@
         <module name="EjemploExamen" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TorijaSanchez-Jara_Angel_practicaUT2" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -8,4 +8,5 @@ import java.util.List;
 public interface CollectionDao {
     List<CollectionEntity> findAllCollection() throws SQLException;
 
+    CollectionEntity findCollectionById(int id) throws SQLException;
 }

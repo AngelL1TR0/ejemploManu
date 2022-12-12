@@ -18,4 +18,12 @@ public class CollectionService {
             throw new RuntimeException(e);
         }
     }
+
+    public CollectionEntity findCollectionById(int id) {
+        try {
+            return collectionDao.findCollectionById(id);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
